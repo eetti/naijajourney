@@ -1,0 +1,37 @@
+{
+  "name": "naijajourney",
+  "version": "1.0.0",
+  "description": "naija journey rest api",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node --trace-warnings src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eetti/naijajourney.git"
+  },
+  "keywords": [
+    "naija",
+    "explore",
+    "fun",
+    "tactical",
+    "brain",
+    "racking"
+  ],
+  "author": "Emmanuel Etti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eetti/naijajourney/issues"
+  },
+  "homepage": "https://github.com/eetti/naijajourney#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "express-swagger-generator": "^1.1.17",
+    "mongoose": "^5.10.13",
+    "rxjs": "^6.6.3",
+    "uuid": "^8.3.1"
+  }
+}
